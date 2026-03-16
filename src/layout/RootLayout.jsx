@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import NavBar from "../components/NavBar/NavBar";
 
 const RootLayout = () => {
-    return (
-        <div>
-            
-        </div>
-    );
+  return <div>
+    <header>
+        <NavBar/>
+    </header>
+  </div>;
 };
 
 export default RootLayout;
