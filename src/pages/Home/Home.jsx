@@ -1,14 +1,23 @@
-import React from 'react';
-import Hero from '../../components/HomePage/HeroSection/Hero';
-import Info from '../../components/HomePage/InfoSection/Info';
+import React, { Suspense } from "react";
+import Hero from "../../components/HomePage/HeroSection/Hero";
+import Info from "../../components/HomePage/InfoSection/Info";
+import axios from "axios";
+import TrendingApps from "../../components/HomePage/TrendingApps/TrendingApps";
+import GlobalSpinner from "../../components/Loading/GlobalSpinner/GlobalSpinner";
+const trendingAppPromise = axios("/apps-data.json");
 
-const HomePag = () => {
+const HomePage = () => {
   return (
-    <div>
-      <Hero/>
-      <Info/>
+    <div className="bg-[#f5f5f5]">
+      <Hero />
+      <Info />
+      <Suspense
+        fallback={<GlobalSpinner/>}
+      >
+        <TrendingApps trendingAppPromise={trendingAppPromise} />
+      </Suspense>
     </div>
   );
 };
 
-export default HomePag;
+export default HomePage;

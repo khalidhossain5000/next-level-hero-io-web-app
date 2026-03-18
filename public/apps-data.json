@@ -1,0 +1,434 @@
+[
+  {
+    "image": "https://i.ibb.co.com/RGQ43P3q/demo-app-1.webp",
+    "title": "ChatLoop",
+    "companyName": "Loop Labs",
+    "id": 1,
+    "description": "ChatLoop is a fast and secure messaging application that allows users to send text messages, voice notes, images and videos instantly.",
+    "size": 42,
+    "reviews": "12K",
+    "ratingAvg": 4.5,
+    "downloads": "5.2M",
+    "ratings": [
+      { "name": "1 star", "count": 1240 },
+      { "name": "2 star", "count": 5300 },
+      { "name": "3 star", "count": 7800 },
+      { "name": "4 star", "count": 11200 },
+      { "name": "5 star", "count": 12950 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/nNpYJjVf/demo-app-2.webp",
+    "title": "MusicFlow",
+    "companyName": "Flow Media",
+    "id": 2,
+    "description": "MusicFlow lets users stream millions of songs, create playlists and explore trending music from around the world.",
+    "size": 58,
+    "reviews": "9K",
+    "ratingAvg": 4.4,
+    "downloads": "3.4M",
+    "ratings": [
+      { "name": "1 star", "count": 890 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KpChccW3/demo-app-3.webp",
+    "title": "TaskHero",
+    "companyName": "HeroSoft",
+    "id": 3,
+    "description": "TaskHero helps users organize tasks, set reminders and boost productivity through simple task management.",
+    "size": 30,
+    "reviews": "7K",
+    "ratingAvg": 4.3,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 6700 },
+      { "name": "4 star", "count": 8900 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/bxJLj8h/demo-app-4.webp",
+    "title": "FitPulse",
+    "companyName": "Pulse Tech",
+    "id": 4,
+    "description": "FitPulse tracks workouts, calories burned, heart rate and daily activity to help users stay healthy.",
+    "size": 49,
+    "reviews": "8K",
+    "ratingAvg": 4.6,
+    "downloads": "4.3M",
+    "ratings": [
+      { "name": "1 star", "count": 450 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 10500 },
+      { "name": "5 star", "count": 12700 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/cS3JDVwP/demo-app-5.webp",
+    "title": "PhotoMagic",
+    "companyName": "Magic Labs",
+    "id": 5,
+    "description": "PhotoMagic offers powerful photo editing tools including AI filters, background remover and color adjustment.",
+    "size": 70,
+    "reviews": "11K",
+    "ratingAvg": 4.7,
+    "downloads": "6.1M",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3200 },
+      { "name": "4 star", "count": 9400 },
+      { "name": "5 star", "count": 12850 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TqpjpCJs/demo-app-6.webp",
+    "title": "LearnHub",
+    "companyName": "EduSoft",
+    "id": 6,
+    "description": "LearnHub provides thousands of courses on programming, design, business and many other topics.",
+    "size": 55,
+    "reviews": "6K",
+    "ratingAvg": 4.2,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 4100 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 8400 },
+      { "name": "5 star", "count": 7900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jk2WPszV/e.webp",
+    "title": "TravelMate",
+    "companyName": "Globe Apps",
+    "id": 7,
+    "description": "TravelMate helps users discover travel destinations, book trips and plan travel schedules easily.",
+    "size": 47,
+    "reviews": "5K",
+    "ratingAvg": 4.3,
+    "downloads": "1.4M",
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 10100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TMY7L3DJ/icon-026.webp",
+    "title": "GameStorm",
+    "companyName": "Storm Studio",
+    "id": 8,
+    "description": "GameStorm offers a collection of fun mini games with leaderboards and daily challenges.",
+    "size": 118,
+    "reviews": "15K",
+    "ratingAvg": 4.5,
+    "downloads": "8.2M",
+    "ratings": [
+      { "name": "1 star", "count": 4200 },
+      { "name": "2 star", "count": 5800 },
+      { "name": "3 star", "count": 8900 },
+      { "name": "4 star", "count": 12300 },
+      { "name": "5 star", "count": 12900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Jj0F2FYY/f.webp",
+    "title": "NewsFlash",
+    "companyName": "Flash Media",
+    "id": 9,
+    "description": "NewsFlash delivers breaking news and trending stories in real time.",
+    "size": 28,
+    "reviews": "4K",
+    "ratingAvg": 4.1,
+    "downloads": "1.1M",
+    "ratings": [
+      { "name": "1 star", "count": 3100 },
+      { "name": "2 star", "count": 4500 },
+      { "name": "3 star", "count": 6700 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/b9fS019/habit.webp",
+    "title": "WeatherWise",
+    "companyName": "SkyTech",
+    "id": 10,
+    "description": "WeatherWise provides accurate weather forecasts, radar maps and severe weather alerts.",
+    "size": 24,
+    "reviews": "3K",
+    "ratingAvg": 4.4,
+    "downloads": "950K",
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 1900 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 9600 },
+      { "name": "5 star", "count": 11300 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/KpChccW3/demo-app-3.webp",
+    "title": "NoteKeeper",
+    "companyName": "Smart Apps",
+    "id": 11,
+    "description": "NoteKeeper is a simple note taking application with cloud sync and reminders.",
+    "size": 18,
+    "reviews": "3K",
+    "ratingAvg": 4.2,
+    "downloads": "820K",
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 5400 },
+      { "name": "4 star", "count": 8700 },
+      { "name": "5 star", "count": 9100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/9HXNtCkJ/icon-005.webp",
+    "title": "FileVault",
+    "companyName": "SecureSoft",
+    "id": 12,
+    "description": "FileVault helps users store and share files securely with encryption.",
+    "size": 40,
+    "reviews": "2K",
+    "ratingAvg": 4.3,
+    "downloads": "720K",
+    "ratings": [
+      { "name": "1 star", "count": 1400 },
+      { "name": "2 star", "count": 2300 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 10200 },
+      { "name": "5 star", "count": 11100 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/ksdqvV28/icon-006.webp",
+    "title": "FitChef",
+    "companyName": "Healthy Labs",
+    "id": 13,
+    "description": "FitChef provides healthy recipes and meal plans to maintain a balanced diet.",
+    "size": 35,
+    "reviews": "2K",
+    "ratingAvg": 4.4,
+    "downloads": "620K",
+    "ratings": [
+      { "name": "1 star", "count": 950 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 9400 },
+      { "name": "5 star", "count": 10800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/YFMWWKqj/icon-007.webp",
+    "title": "BookNest",
+    "companyName": "Reader Studio",
+    "id": 14,
+    "description": "BookNest allows users to read thousands of ebooks and listen to audiobooks.",
+    "size": 52,
+    "reviews": "3K",
+    "ratingAvg": 4.5,
+    "downloads": "960K",
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 4900 },
+      { "name": "4 star", "count": 11500 },
+      { "name": "5 star", "count": 12200 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/rK29XjT2/icon-009.webp",
+    "title": "LangMate",
+    "companyName": "Global Edu",
+    "id": 15,
+    "description": "LangMate helps users learn languages through quizzes, practice and AI lessons.",
+    "size": 46,
+    "reviews": "3K",
+    "ratingAvg": 4.6,
+    "downloads": "1.3M",
+    "ratings": [
+      { "name": "1 star", "count": 520 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 10700 },
+      { "name": "5 star", "count": 12900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/Y7PH6Bkg/icon-010.webp",
+    "title": "PodcastZone",
+    "companyName": "AudioTech",
+    "id": 16,
+    "description": "PodcastZone is a platform to discover and listen to podcasts across multiple categories.",
+    "size": 57,
+    "reviews": "2K",
+    "ratingAvg": 4.3,
+    "downloads": "710K",
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 3400 },
+      { "name": "3 star", "count": 5900 },
+      { "name": "4 star", "count": 8200 },
+      { "name": "5 star", "count": 10400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/DPYXQF6V/icon-013.webp",
+    "title": "CashTrack",
+    "companyName": "FinEdge",
+    "id": 17,
+    "description": "CashTrack helps users track expenses and manage personal budgets.",
+    "size": 34,
+    "reviews": "2K",
+    "ratingAvg": 4.4,
+    "downloads": "870K",
+    "ratings": [
+      { "name": "1 star", "count": 1100 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 9800 },
+      { "name": "5 star", "count": 11400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/qFxvSWwy/icon-014.webp",
+    "title": "SecureVPN",
+    "companyName": "Privacy Labs",
+    "id": 18,
+    "description": "SecureVPN protects your online privacy by encrypting internet traffic.",
+    "size": 41,
+    "reviews": "4K",
+    "ratingAvg": 4.5,
+    "downloads": "1.6M",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 6300 },
+      { "name": "4 star", "count": 11900 },
+      { "name": "5 star", "count": 12600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/q3Gd73L9/icon-015.webp",
+    "title": "DrawPad",
+    "companyName": "Creative Labs",
+    "id": 19,
+    "description": "DrawPad is a digital drawing tool for artists and designers.",
+    "size": 74,
+    "reviews": "1K",
+    "ratingAvg": 4.4,
+    "downloads": "620K",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 5100 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 10900 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/60Cy6svb/icon-016.webp",
+    "title": "QuickScan",
+    "companyName": "OfficeTech",
+    "id": 20,
+    "description": "QuickScan allows users to scan documents and convert them into PDF files.",
+    "size": 22,
+    "reviews": "2K",
+    "ratingAvg": 4.3,
+    "downloads": "720K",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2400 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 9100 },
+      { "name": "5 star", "count": 10600 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/W4vnk1Sz/icon-017.webp",
+    "title": "CryptoWatch",
+    "companyName": "BlockEdge",
+    "id": 21,
+    "description": "CryptoWatch tracks cryptocurrency prices and market trends.",
+    "size": 39,
+    "reviews": "3K",
+    "ratingAvg": 4.2,
+    "downloads": "910K",
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3900 },
+      { "name": "3 star", "count": 6200 },
+      { "name": "4 star", "count": 8800 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/LDYYSMg6/icon-018.webp",
+    "title": "GardenMate",
+    "companyName": "GreenSoft",
+    "id": 22,
+    "description": "GardenMate helps plant lovers manage plant care schedules.",
+    "size": 32,
+    "reviews": "1K",
+    "ratingAvg": 4.4,
+    "downloads": "420K",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 9200 },
+      { "name": "5 star", "count": 11800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/TMWCzLs4/icon-019.webp",
+    "title": "StudyMate",
+    "companyName": "EduCore",
+    "id": 23,
+    "description": "StudyMate helps students organize notes and study schedules.",
+    "size": 41,
+    "reviews": "2K",
+    "ratingAvg": 4.5,
+    "downloads": "760K",
+    "ratings": [
+      { "name": "1 star", "count": 0 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 10100 },
+      { "name": "5 star", "count": 12400 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7dRqDtBX/icon-020.webp",
+    "title": "MovieHub",
+    "companyName": "CinemaTech",
+    "id": 24,
+    "description": "MovieHub allows users to explore trending movies, trailers and reviews.",
+    "size": 65,
+    "reviews": "5K",
+    "ratingAvg": 4.6,
+    "downloads": "2.1M",
+    "ratings": [
+      { "name": "1 star", "count": 0 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 11800 },
+      { "name": "5 star", "count": 12950 }
+    ]
+  }
+]

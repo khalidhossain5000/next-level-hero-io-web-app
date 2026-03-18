@@ -11,3 +11,17 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.skeleton{
+  animation: 1.8s ease-in-out infinite skeleton;
+}
+
+
+@keyframes skeleton{
+  0%{
+    background-position: 150%;
+  }
+  100%{
+    background-position: -50%;
+  }
+}

@@ -23,11 +23,11 @@ const Hero = () => {
         </p>
         {/* hero button */}
         <div className="flex items-stretch gap-2 my-4 md:my-6 xl:my-10 justify-center max-w-md mx-auto">
-          <button className="md:text-center sm:flex-1 flex items-center gap-1 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full">
+          <button className="md:text-center sm:flex-1 flex items-center gap-2 lg:gap-4 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full">
             <img src={playStore} alt="" className="" />
             Google Play
           </button>
-          <button className="md:text-center sm:flex-1 flex items-center gap-1 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full">
+          <button className="md:text-center sm:flex-1 flex items-center gap-2 lg:gap-4 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full">
             <img src={appStore} alt="" />
             App Store
           </button>
