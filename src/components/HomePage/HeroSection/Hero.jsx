@@ -2,7 +2,9 @@ import React from "react";
 import bannerImg from "../../../assets/hero.png";
 import playStore from "../../../assets/play-store.png";
 import appStore from "../../../assets/app-store.png";
+
 const Hero = () => {
+
   return (
     <section className="bg-[#f5f5f5] px-6 md:px-10 lg:px-14 xl:px-20 pt-10 lg:pt-12 xl:pt-20 ">
       {/* content */}
@@ -23,14 +25,14 @@ const Hero = () => {
         </p>
         {/* hero button */}
         <div className="flex items-stretch gap-2 my-4 md:my-6 xl:my-10 justify-center max-w-md mx-auto">
-          <button className="md:text-center sm:flex-1 flex items-center gap-2 lg:gap-4 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full">
+          <a href="https://play.google.com/store/games" target="_blank" className="md:text-center sm:flex-1 flex items-center gap-2 lg:gap-4 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full cursor-pointer hover:bg-slate-200 transiton duration-500 hover:shadow-2xl" >
             <img src={playStore} alt="" className="" />
             Google Play
-          </button>
-          <button className="md:text-center sm:flex-1 flex items-center gap-2 lg:gap-4 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full">
+          </a>
+          <a href="https://www.apple.com/app-store/" target="_blank"   className="md:text-center sm:flex-1 flex items-center gap-2 lg:gap-4 py-2 md:py-3 px-3 md:px-6 rounded-xs border border-[#D2D2D2] text-sm md:text-lg lg:text-xl font-medium md:font-semibold text-[#001931] h-full cursor-pointer hover:bg-slate-200 transiton duration-500 hover:shadow-2xl">
             <img src={appStore} alt="" />
             App Store
-          </button>
+          </a>
         </div>
       </div>
       {/* image */}

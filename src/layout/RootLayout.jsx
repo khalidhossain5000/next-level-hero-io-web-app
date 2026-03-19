@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import NavBar from "../components/NavBar/NavBar";
 import { Outlet, useNavigation } from "react-router";
 import GlobalSpinner from "../components/Loading/GlobalSpinner/GlobalSpinner";
@@ -14,10 +14,11 @@ const RootLayout = () => {
         return () => clearTimeout(timer)
     }, [])
 
-    // {welcomeLoader && <GlobalSpinner/>}
+ 
 
     if(welcomeLoader) return <WelcomeLoader/>
   return (
+   
     <div>
       <header>
         <NavBar />
@@ -26,7 +27,9 @@ const RootLayout = () => {
         {navigation.state === "loading" && <GlobalSpinner />}
         <Outlet />
       </main>
+      
     </div>
+ 
   );
 };
 

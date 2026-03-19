@@ -9,7 +9,7 @@
 //         width: "100%",
 
 //         height: "400px",
-    
+
 //       }}
 //       responsive
 //       data={ratings}
@@ -37,16 +37,6 @@
 
 // export default RatingChart;
 
-
-
-
-
-
-
-
-
-
-
 import React from "react";
 import {
   Bar,
@@ -69,36 +59,30 @@ const RatingChart = ({ ratings }) => {
         data={reversedData}
         margin={{ left: 0, right: 0, bottom: 0, top: 0 }}
       >
-        
-        <XAxis 
-          type="number" 
-          stroke="#99a1af" 
-          tick={{ fontSize: 12 }}
-        /> 
-        
-        <YAxis 
-          dataKey="name" 
-          type="category" 
-   scale="band" 
-            padding={{ top: 0, bottom: 0 }}
+        <XAxis type="number" stroke="#99a1af" tick={{ fontSize: 12 }} />
+
+        <YAxis
+          dataKey="name"
+          type="category"
+          scale="band"
+          padding={{ top: 0, bottom: 0 }}
           stroke="#99a1af"
-          interval={0} 
-        />
-        
-       
-        <Tooltip cursor={false} />
-        
-        <Legend 
-            verticalAlign="bottom" 
-            align="right"
-            wrapperStyle={{ paddingBottom: "20px" }}
+          interval={0}
         />
 
-        <Bar 
-          dataKey="count" 
-          fill="#ff8811" 
-          barSize={25} 
-          radius={[0, 4, 4, 0]} 
+        <Tooltip cursor={false} />
+
+        <Legend
+          verticalAlign="bottom"
+          align="right"
+          wrapperStyle={{ paddingBottom: "20px" }}
+        />
+
+        <Bar
+          dataKey="count"
+          fill="#ff8811"
+          barSize={25}
+          radius={[0, 4, 4, 0]}
         />
       </BarChart>
     </ResponsiveContainer>

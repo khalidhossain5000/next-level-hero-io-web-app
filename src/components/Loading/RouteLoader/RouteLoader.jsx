@@ -4,7 +4,7 @@ import styled from "styled-components";
 const RouteLoading = () => {
   return (
     <StyledWrapper>
-        <div className="flex  flex-col 0 justify-center  items-center   h-screen bg-red-600">
+        <div className="flex  flex-col 0 justify-center  items-center   h-screen ">
       <div className="loader ">
         <div>
           <ul>
