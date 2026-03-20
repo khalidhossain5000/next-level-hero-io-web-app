@@ -9,7 +9,7 @@ const TrendingAppCard = ({ trendingApp }) => {
   
   const { title, image, ratingAvg, downloads,id } = trendingApp;
   return (
-    <Link to={`/app/${id}`}>
+    <Link to={`/apps/${id}`}>
     <div className="p-4 bg-white rounded-sm  shadow-sm">
       <div>
         <img
