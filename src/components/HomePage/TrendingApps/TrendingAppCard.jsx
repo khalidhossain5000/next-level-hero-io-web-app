@@ -2,12 +2,14 @@ import React from "react";
 
 import { MdOutlineFileDownload } from "react-icons/md";
 import { FaStar } from "react-icons/fa6";
+import { Link } from "react-router";
 
 
 const TrendingAppCard = ({ trendingApp }) => {
   
-  const { title, image, ratingAvg, downloads } = trendingApp;
+  const { title, image, ratingAvg, downloads,id } = trendingApp;
   return (
+    <Link to={`/app/${id}`}>
     <div className="p-4 bg-white rounded-sm  shadow-sm">
       <div>
         <img
@@ -36,6 +38,7 @@ const TrendingAppCard = ({ trendingApp }) => {
         </h2>
       </div>
     </div>
+    </Link>
   );
 };
 
