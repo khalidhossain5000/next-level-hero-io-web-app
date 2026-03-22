@@ -15,10 +15,10 @@ const Footer = () => {
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
       <div className=" px-6 py-12 md:p-24 xl:px-36">
         {/* 5 Column Grid - Responsive */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6 ">
           {/* Column 1: Branding */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
+            <div className="flex items-center justify-center lg:justify-start space-x-3">
               <Link to="/">
                 <div className="logo flex items-center gap-3">
                   <img src={logo} alt="" className="w-10 h-10" />{" "}
@@ -28,11 +28,11 @@ const Footer = () => {
                 </div>
               </Link>
             </div>
-            <p className="text-gray-300 text-sm leading-relaxed">
+            <p className="text-gray-100 text-sm leading-relaxed text-center lg:text-left ">
               Discover, install, and manage your favorite apps effortlessly.
               Your one-stop destination for app exploration.
             </p>
-            <div className="flex space-x-4 pt-2">
+            <div className="flex space-x-4 pt-2 justify-center lg:justify-start">
               <a
                 href="#"
                 className="text-gray-400 hover:text-white transition-colors"
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
 
           {/* Column 2: Quick Links */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-center lg:text-left ">
             <h3 className="text-lg font-semibold tracking-wide">Quick Links</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
               <li>
@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
 
           {/* Column 3: Resources */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-center lg:text-left ">
             <h3 className="text-lg font-semibold tracking-wide">Resources</h3>
             <ul className="space-y-2 text-gray-300 text-sm">
               <li>
@@ -123,7 +123,7 @@ const Footer = () => {
           </div>
 
           {/* Column 4: Contact */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-center lg:text-left ">
             <h3 className="text-lg font-semibold tracking-wide">Contact</h3>
             <ul className="space-y-3 text-gray-300 text-sm">
               <li className="flex items-center space-x-3">
@@ -143,11 +143,11 @@ const Footer = () => {
           </div>
 
           {/* Column 5: Newsletter / Stay Updated */}
-          <div className="space-y-4">
+          <div className="space-y-4 text-center lg:text-left ">
             <h3 className="text-lg font-semibold tracking-wide">
               Stay Updated
             </h3>
-            <p className="text-gray-300 text-sm">
+            <p className="text-gray-200 text-sm">
               Get the latest app news and updates.
             </p>
             <form
@@ -170,9 +170,9 @@ const Footer = () => {
         </div>
 
         {/* Copyright Section */}
-        <div className="border-t border-gray-700/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-400 space-y-4 md:space-y-0">
+        <div className="border-t border-gray-700/50 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-slate-200 space-y-4 md:space-y-0">
           <p>© {new Date().getFullYear()} AppVerse. All rights reserved.</p>
-          <div className="flex space-x-6">
+          <div className="flex flex-wrap gap-2 text-center lg:text-left  space-x-3 md:space-x-6">
             <a href="#" className="hover:text-white transition-colors">
               Privacy Policy
             </a>
