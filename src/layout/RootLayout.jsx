@@ -3,6 +3,7 @@ import NavBar from "../components/NavBar/NavBar";
 import { Outlet, useNavigation } from "react-router";
 import GlobalSpinner from "../components/Loading/GlobalSpinner/GlobalSpinner";
 import WelcomeLoader from "../components/Loading/WelcomeLoader/WelcomeLoader";
+import Footer from "../components/Footer/Footer";
 
 const RootLayout = () => {
   const navigation = useNavigation();
@@ -27,7 +28,9 @@ const RootLayout = () => {
         {navigation.state === "loading" && <GlobalSpinner />}
         <Outlet />
       </main>
-      
+      <footer>
+        <Footer/>
+      </footer>
     </div>
  
   );
