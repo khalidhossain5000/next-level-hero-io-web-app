@@ -13,7 +13,7 @@ import { Link } from "react-router";
 const Footer = () => {
   return (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white">
-      <div className=" px-6 py-12 md:p-24">
+      <div className=" px-6 py-12 md:p-24 xl:px-36">
         {/* 5 Column Grid - Responsive */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6">
           {/* Column 1: Branding */}
