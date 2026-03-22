@@ -8,6 +8,7 @@ import {
   FaEnvelope,
   FaMapMarkerAlt,
 } from "react-icons/fa";
+import { Link } from "react-router";
 
 const Footer = () => {
   return (
@@ -18,14 +19,14 @@ const Footer = () => {
           {/* Column 1: Branding */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img
-                src={logo}
-                alt="AppVerse Logo"
-                className="h-10 w-10 object-contain"
-              />
-              <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 bg-clip-text text-transparent">
-                AppVerse
-              </span>
+             <Link to="/">
+        <div className="logo flex items-center gap-3">
+          <img src={logo} alt="" className="w-10 h-10" />{" "}
+          <p className="text-[16px] md:text-xl xl:text-2xl font-semibold bg-clip-text bg-linear-to-br from-[#632EE3] via-white/60 to-[#9F62F2] text-transparent">
+            AppVerse
+          </p>
+        </div>
+      </Link>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
               Discover, install, and manage your favorite apps effortlessly.

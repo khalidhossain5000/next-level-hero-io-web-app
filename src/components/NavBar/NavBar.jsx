@@ -26,8 +26,8 @@ const NavBar = () => {
       <Link to="/">
         <div className="logo flex items-center gap-3">
           <img src={logo} alt="" className="w-10 h-10" />{" "}
-          <p className="text-[16px] font-semibold bg-clip-text bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-transparent">
-            HERO.IO
+          <p className="text-[16px] xl:text-xl font-semibold bg-clip-text bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-transparent">
+            AppVerse
           </p>
         </div>
       </Link>
