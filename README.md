@@ -8,8 +8,7 @@
 
 
 
-## 🛠️ Technologies Used
-
+## 🛠️ Technologies
 - React 
 - React Router 
 - tailwindCss
