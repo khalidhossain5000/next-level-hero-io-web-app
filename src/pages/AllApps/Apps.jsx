@@ -29,8 +29,6 @@ const AllAppsPage = () => {
  
   };
 
-
-
   return (
     <section className="p-8 md:p-10 lg:p-14 xl:p-20 ">
       {/* title and content */}
@@ -45,7 +43,7 @@ const AllAppsPage = () => {
       {/* subtitle and search box container */}
       <div className="mt-10 flex flex-col lg:flex-row items-center justify-between space-y-4 lg:space-y-0">
         <h2 className="text-xl lg:text-2xl font-semibold text-[#001931]">
-          ({data.length}) Apps Found
+          ({allApps.length}) Apps Found
         </h2>
         <label className="px-4 py-3 border border-[#D2D2D2] rounded-sm shaodw-sm flex items-center gap-3 text-[16px] text-[#627382] focus-within:outline focus-within:outline-slate-600 duration-500 transition-all">
           <span>
