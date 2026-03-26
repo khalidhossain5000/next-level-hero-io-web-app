@@ -27,7 +27,6 @@ const RootLayout = () => {
         <NavBar />
       </header>
       <main>
-        {/* {navigation.state === "loading" && <GlobalSpinner />} */}
         <Outlet />
       </main>
       <footer>

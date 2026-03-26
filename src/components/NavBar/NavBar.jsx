@@ -82,7 +82,9 @@ const NavBar = () => {
               <NavLink
                 key={i}
                 to={item.path}
-                className="text-[16px] font-semibold bg-clip-text bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-transparent"
+                  className={({ isActive }) =>
+                `text-[16px] font-semibold ${isActive ? "bg-clip-text bg-linear-to-br from-[#632EE3] to-[#9F62F2] text-transparent border-b-2 border-[#7441e8]" : "text-[#1a1a1a]"}`
+              }
               >
                 {item.label}
               </NavLink>
