@@ -1,23 +1,23 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const GlobalSpinner = () => {
   return (
     <StyledWrapper>
-         <div className="flex  flex-col 0 justify-center  items-center   h-screen bg-slate-100">
-   <div id="page">
-        <div id="container">
-          <div id="ring" />
-          <div id="ring" />
-          <div id="ring" />
-          <div id="ring" />
-          <div id="h3">loading</div>
+      <div className="flex  flex-col 0 justify-center  items-center   h-screen bg-slate-100">
+        <div id="page">
+          <div id="container">
+            <div id="ring" />
+            <div id="ring" />
+            <div id="ring" />
+            <div id="ring" />
+            <div id="h3">loading</div>
+          </div>
         </div>
-      </div>
       </div>
     </StyledWrapper>
   );
-}
+};
 const StyledWrapper = styled.div`
   #page {
     display: flex;
@@ -103,15 +103,6 @@ const StyledWrapper = styled.div`
       transform: rotateX(70deg) rotateZ(630deg);
     }
   }
-  /* Improving visualization in light mode */`;
+  /* Improving visualization in light mode */
+`;
 export default GlobalSpinner;
-
-
-
-
-
-
-
-
-
-

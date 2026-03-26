@@ -12,7 +12,7 @@ export const router = createBrowserRouter([
     path: "/",
     Component: RootLayout,
     errorElement: <ErrorPage />,
-  HydrateFallback: RouteLoading,
+    HydrateFallback: RouteLoading,
     children: [
       {
         index: true,
@@ -35,12 +35,13 @@ export const router = createBrowserRouter([
         path: "my-installation",
         Component: MyInstallation,
         loader: () => fetch("/apps-data.json"),
-          HydrateFallback: RouteLoading,
+        HydrateFallback: RouteLoading,
       },
       {
         path: "loading",
         Component: RouteLoading,
-      },{
+      },
+      {
         path: "loader",
         Component: GlobalSpinner,
       },

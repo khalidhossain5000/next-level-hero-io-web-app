@@ -18,14 +18,16 @@ const RootLayout = () => {
  
 
     if(welcomeLoader) return <WelcomeLoader/>
+
+    if(navigation.state==="loading") return <GlobalSpinner />
   return (
-   
+  
     <div>
       <header>
         <NavBar />
       </header>
       <main>
-        {navigation.state === "loading" && <GlobalSpinner />}
+        {/* {navigation.state === "loading" && <GlobalSpinner />} */}
         <Outlet />
       </main>
       <footer>
