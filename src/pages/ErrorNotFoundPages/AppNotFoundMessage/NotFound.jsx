@@ -3,7 +3,7 @@ import notFoundImg from "../../../assets/App-Error.png";
 import { Link } from "react-router";
 const NotFound = () => {
   return (
-    <section className="h-[calc(100vh-90px)]  bg-[#f5f5f5] p-10 md:p-12 lg:p-14 xl:p-20">
+    <section className="h-[calc(100vh-90px)]  bg-[#f5f5f5] p-10 md:p-12 lg:p-14 xl:p-20 mb-12 md:mb-44">
       <div className="pb-4">
         <img
           src={notFoundImg}
@@ -11,7 +11,7 @@ const NotFound = () => {
           className="mx-auto object-cover"
         />
       </div>
-      <div className="py-4">
+      <div className="py-4 ">
         <h2 className="text-center text-[#001931] text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold pt-6 pb-3">
         OPPS!! APP NOT FOUND
         </h2>

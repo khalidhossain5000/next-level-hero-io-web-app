@@ -33,16 +33,10 @@ progress: undefined,
 theme: "light",
 transition: Bounce,
 });
-    //
+    
   };
 
-  // const handleSort=(e)=>{
-  //   setSort(e.target.value)
-  //   if(sort==="low"){
-  //     const lowToHighSortedData=allInstalledApp.sort((a,b)=>a.size-b.size)
-  //     console.log(lowToHighSortedData,'this is lo to hight sorted data here')
-  //   }
-  // }
+ 
 
   const handleSort = (e) => {
     const value = e.target.value;

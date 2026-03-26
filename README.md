@@ -7,11 +7,13 @@
 #### The project also implements localStorage to persist installed apps, which are displayed on the  “My Installation” page with uninstall functionality. Additionally, users can sort apps by download count (High–Low / Low–High), making the experience more dynamic and user-friendly.
 
 
+
 ## 🛠️ Technologies
 - React 
 - React Router 
 - tailwindCss
 - React Toastify 
+- daisy ui
 - SweetAlert2 
 - axios
 - react-icons

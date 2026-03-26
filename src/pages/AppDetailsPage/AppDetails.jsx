@@ -32,7 +32,6 @@ const AppDetailsPage = () => {
   // handle install app function starts
   const handleAppInstall = (appId) => {
     const installedParsedAppId = parseInt(appId);
-    console.log(appId, "this is appid inside handle ap p install");
     setInstalledAppId([...installedAppId, installedParsedAppId]);
 
     if (installedParsedAppId) {

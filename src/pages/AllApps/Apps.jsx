@@ -26,14 +26,10 @@ const AllAppsPage = () => {
       setAllApps(searchApps);
       setSearchLoading(false);
     }, 100);
-    // const searchApps = data.filter((app) =>
-    //   app.title.toLowerCase().includes(text),
-    // );
-    // setAllApps(searchApps);
-    // setSearchLoading(false)
+ 
   };
 
-  console.log(inputRef, "this is input ref");
+
 
   return (
     <section className="p-8 md:p-10 lg:p-14 xl:p-20 ">

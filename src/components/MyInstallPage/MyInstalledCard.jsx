@@ -5,9 +5,9 @@ import { FaStar } from "react-icons/fa";
 const MyInstalledCard = ({ installedApp,handleUninstall }) => {
   const { image, title, downloads, size, ratingAvg,id } = installedApp;
   return (
-    <div className="p-4 rounded-sm bg-white flex items-center justify-between">
+    <div className="p-4 rounded-sm bg-white flex flex-col lg:flex-row items-center justify-between">
       {/* left side content container */}
-      <div className="flex items-center gap-6">
+      <div className="flex flex-col lg:flex-row items-center gap-6">
         <img
           src={image}
           alt="installedapp image"
